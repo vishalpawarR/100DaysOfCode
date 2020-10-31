@@ -1,0 +1,65 @@
+package code.sorting;
+
+import java.util.Scanner;
+
+public class SelectionSort 
+{
+	public static int[] createNewArray()
+	{
+		Scanner scan = new Scanner(System.in);
+		System.out.print("Enter the size of the array : ");
+		int size = scan.nextInt();
+		
+		int[] array = new int[size];
+		System.out.println("Enter the array elements : ");
+		for (int i = 0; i < array.length; i++) 
+		{
+			System.out.print(i+" th element : ");
+			array[i] = scan.nextInt();
+		}
+		return array;
+	}
+	
+	public static void viewArray(int[] array)
+	{
+		System.out.print("The array elements are : ");
+		for (int i = 0; i < array.length; i++) 
+		{
+			System.out.print(array[i]+" ");
+		}
+		System.out.println();
+	}
+	
+	public static int[] SelectionSort(int[] array)
+	{
+		int currentIndex = 0;
+		while(currentIndex < array.length - 1)
+		{
+			int smallestIndex = currentIndex;
+			for (int i = currentIndex + 1; i < array.length; i++) 
+			{
+				if(array[smallestIndex] > array[i])
+				{
+					smallestIndex = i;
+				}
+			}
+			int temp = array[currentIndex];
+			array[currentIndex] = array[smallestIndex];
+			array[smallestIndex] = temp;
+			
+			currentIndex++;
+		}
+		return array;
+	}
+
+	public static void main(String[] args) 
+	{
+		int[] array = createNewArray();
+		System.out.println("Array element before sorting : ");
+		viewArray(array);
+		System.out.println("Array element after sorting : ");
+		SelectionSort(array);
+		viewArray(array);
+	}
+
+}
