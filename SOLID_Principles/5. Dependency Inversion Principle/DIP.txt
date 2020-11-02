@@ -16,4 +16,3 @@ I want to thank you for taking the time to read the whole article and I hope tha
 I suggest keeping these principles in mind while designing, writing, and refactoring your code so that your code will be much more clean, extendable, and testable.
 
 If you are interested in reading more articles like this, you can subscribe to my blog's mailing list to get notified when I publish a new article.
-
