@@ -14,3 +14,5 @@ The Open-Closed Principle
 The Liskov Substitution Principle
 The Interface Segregation Principle
 The Dependency Inversion Principle
+
+site link : https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/amp/?__twitter_impression=true&s=08
