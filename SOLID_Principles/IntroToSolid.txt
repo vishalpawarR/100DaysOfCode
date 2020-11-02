@@ -1,0 +1,16 @@
+The SOLID principles were first introduced by the famous Computer Scientist Robert J. Martin (a.k.a Uncle Bob) in his paper in 2000. But the SOLID acronym was introduced later by Michael Feathers.
+
+Uncle Bob is also the author of bestselling books Clean Code and Clean Architecture, and is one of the participants of the "Agile Alliance".
+
+Therefore, it is not a surprise that all these concepts of clean coding, object-oriented architecture, and design patterns are somehow connected and complementary to each other.
+
+They all serve the same purpose:
+
+"To create understandable, readable, and testable code that many developers can collaboratively work on."
+Let's look at each principle one by one. Following the SOLID acronym, they are:
+
+The Single Responsibility Principle
+The Open-Closed Principle
+The Liskov Substitution Principle
+The Interface Segregation Principle
+The Dependency Inversion Principle
