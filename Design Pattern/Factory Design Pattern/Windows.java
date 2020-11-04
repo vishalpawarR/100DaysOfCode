@@ -1,12 +1,12 @@
 package design.pattern.Creational;
 
-public class Android implements OS
+public class Windows implements OS
 {
 
 	@Override
 	public void spec() 
 	{
-		System.out.println("I am a Google Product");
+		System.out.println("I am a Microsoft Product");
 	}
 
 }
