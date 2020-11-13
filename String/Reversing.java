@@ -22,5 +22,5 @@ public class Reversing
 		String s = sc.next();
 		reverse(s);
 	}
-
+//string reverse code.
 }
